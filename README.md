@@ -16,6 +16,8 @@
 adapter의 getCount() 메소드는 ViewPager에게 이 대답을 해준다.<br>
 그리고 나서, ViewPager는 0번째 있는 Fragment를 요청하고 adapter는 우리의 screen 위에 ViewPager가 보여줄 특정한 fragment를return한다.
 우리가 왼쪽으로 swipe할 때, VeiwPager는 adapter에게 1번째 위치의 Fragment를 요청하고, 그 스크린 위에 그것을 보여준다. 이러한 행위를 반복한다.<br>
+
+<h4>재정리 </h4>
 <ul>
     <li>viewPager(스크린 기능 담당)이 adapter에게 얼마나 많은 page가 있는 지 질문</li>
     <li>adapter는 getCount()로 이에 대한 답장</li>
